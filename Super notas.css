@@ -1,0 +1,48 @@
+etiqueta
+{
+	atributo: valor;
+}
+#nombreid  //Con esto se jala el Id
+{
+	atributo: valor;
+}
+.nombreid //Clase esto se jala la clase
+{
+	atributo: valor;
+}
+body
+{
+	background: #EEEEEE;  //color de fondo adentro de la etiqueta body
+	font-family: Arial;   //tipo de funte
+	font-size: 16px;	  //tamaño de fuente
+}
+body									
+{
+	background: url("imagen") #EEEEEE;  //con esto se pone una imagen de fondo
+	font-family: Arial;					//Fuente para todo el texto adentro de body
+	font-size: 16px;					//Tamañao de fuente para todo el texto adentro de body
+}
+header  
+{
+	background: #344B54;			//color fondo adentro de header
+	color: white;					//color texto adentro de header
+	overflow: hidden;				//Con esto hago que cuente el tamaño de las imagene flotantes
+	padding: 0.5em;					//Margen interno en todas los bordes de 1/2 letra (em)
+}
+header figure						//Con estas lineas de codigo hago que las 
+{									//imagenes adentro de la ruta: (header figure) floten
+	float: left;					
+}
+header #logo img  					//Ruta html para acceder a la imagaden del logo
+{
+	border-right: 1px solid white;	//Creamos un borde solido y blanco a la derecha de la imagen
+	padding-right: 0.5em;			//Crea un espacio entre el la imagen y el borde 
+	margin-right: 0.5em;			//Crea un espacio entre el borde y lo que este afuera 
+	width: 52px;					//Redimencionamos el tamaño del logo independiente de su tamaño original 
+
+}
+header #avatar img  				//Ruta html para acceder a la imagen del avatar 
+{
+	width: 55px;					//Redimencionamos el tamaño del avatar independiente de su tamaño original 
+	border-radius: 50%;				//Con esto se le aplica bordes a las imagenes en pixeles o en porcentaje
+}
